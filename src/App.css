@@ -1,0 +1,35 @@
+.App {
+  text-align: center;
+  font-family: Arial, sans-serif;
+  color: #333;
+  background-color: white;
+}
+
+.header {
+  background-color: #407C96;
+  color: white;
+  padding: 20px;
+}
+
+h1 {
+  font-size: 2.5em;
+}
+
+h2 {
+  color: #407C96;
+  margin: 20px 0;
+}
+
+.services ul {
+  list-style: none;
+  padding: 0;
+}
+
+.services li {
+  padding: 10px;
+  border-bottom: 1px solid #ddd;
+}
+
+.contact {
+  margin: 20px 0;
+}
