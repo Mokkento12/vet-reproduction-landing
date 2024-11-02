@@ -1,6 +1,6 @@
-// src/components/ImageSlider.js
 import React from "react";
 import Slider from "react-slick";
+import "./ImageSlider.css";
 
 const ImageSlider = () => {
   const settings = {

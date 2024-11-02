@@ -1,0 +1,43 @@
+.services ul {
+  display: flex;
+  justify-content: space-around;
+  padding: 0;
+  list-style: none;
+  gap: 16px;
+}
+
+.services li {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  width: 30%;
+}
+
+.service-icon {
+  color: #407C96;
+  margin-bottom: 8px;
+  font-size: 2rem;
+}
+
+.services-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.services ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.services li {
+  display: flex;
+  align-items: center;
+  margin: 10px 0;
+}
+
+.service-icon {
+  margin-right: 10px;
+  font-size: 24px;
+}
