@@ -1,3 +1,6 @@
+@import "~slick-carousel/slick/slick.css";
+@import "~slick-carousel/slick/slick-theme.css";
+
 .App {
   text-align: center;
   font-family: Arial, sans-serif;
@@ -16,7 +19,7 @@ h1 {
 }
 
 h2 {
-  color: #407C96;
+  color: #fff;
   margin: 20px 0;
 }
 
@@ -32,4 +35,36 @@ h2 {
 
 .contact {
   margin: 20px 0;
+}
+
+.slider-container {
+  max-width: 800px;
+  margin: auto;
+  padding: 20px;
+}
+
+.slide {
+  position: relative;
+}
+
+.slide img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.slide-text {
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+  color: #ffffff;
+  font-size: 1.5em;
+  font-weight: bold;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  background: none;
+  padding: 0;
+}
+
+.slide-text h2 {
+  font-size: 1.5em;
+  margin: 0;
 }
