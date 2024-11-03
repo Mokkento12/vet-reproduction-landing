@@ -2,8 +2,8 @@ import React from "react";
 import Header from "./components/Header/Header";
 import AboutSection from "./components/AboutSection/AboutSection";
 import ServicesSection from "./components/ServicesSection/ServicesSection";
-import ContactSection from "./components/ContactSection/ContactSection";
 import ImageSlider from "./components/ImageSlider/ImageSlider";
+import Footer from "./components/Footer/Footer";
 import "./App.css";
 
 function App() {
@@ -13,7 +13,7 @@ function App() {
       <ImageSlider />
       <AboutSection />
       <ServicesSection />
-      <ContactSection />
+      <Footer />
     </div>
   );
 }
