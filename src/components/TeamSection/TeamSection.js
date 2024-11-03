@@ -10,6 +10,7 @@ const TeamSection = () => (
         <h3>Доктор Иван Иванов</h3>
         <p>Специалист по репродуктологии</p>
         <p>Опыт: 10 лет</p>
+        <button className="more-info-btn">Подробнее</button>
       </div>
 
       <div className="team-member">
@@ -17,6 +18,7 @@ const TeamSection = () => (
         <h3>Доктор Анна Петрова</h3>
         <p>Ветеринарный терапевт</p>
         <p>Опыт: 8 лет</p>
+        <button className="more-info-btn">Подробнее</button>
       </div>
 
       <div className="team-member">
@@ -24,6 +26,7 @@ const TeamSection = () => (
         <h3>Доктор Алексей Сидоров</h3>
         <p>Специалист по хирургии</p>
         <p>Опыт: 12 лет</p>
+        <button className="more-info-btn">Подробнее</button>
       </div>
     </div>
   </section>
