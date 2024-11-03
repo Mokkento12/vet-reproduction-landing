@@ -18,17 +18,17 @@ const ImageSlider = () => {
     {
       id: 1,
       title: "Профессиональная помощь в репродукции",
-      image: `${process.env.PUBLIC_URL}/images/pets-1.jpg`,
+      image: `${process.env.PUBLIC_URL}/images/pets/pets-1.jpg`,
     },
     {
       id: 2,
       title: "Новейшие методы диагностики",
-      image: `${process.env.PUBLIC_URL}/images/pets-2.jpg`,
+      image: `${process.env.PUBLIC_URL}/images/pets/pets-2.jpg`,
     },
     {
       id: 3,
       title: "Безопасность и забота",
-      image: `${process.env.PUBLIC_URL}/images/pets-3.jpg`,
+      image: `${process.env.PUBLIC_URL}/images/pets/pets-3.jpg`,
     },
   ];
 

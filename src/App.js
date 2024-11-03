@@ -1,8 +1,9 @@
 import React from "react";
 import Header from "./components/Header/Header";
+import ImageSlider from "./components/ImageSlider/ImageSlider";
 import AboutSection from "./components/AboutSection/AboutSection";
 import ServicesSection from "./components/ServicesSection/ServicesSection";
-import ImageSlider from "./components/ImageSlider/ImageSlider";
+import TeamSection from "./components/TeamSection/TeamSection";
 import Footer from "./components/Footer/Footer";
 import "./App.css";
 
@@ -13,6 +14,7 @@ function App() {
       <ImageSlider />
       <AboutSection />
       <ServicesSection />
+      <TeamSection />
       <Footer />
     </div>
   );
